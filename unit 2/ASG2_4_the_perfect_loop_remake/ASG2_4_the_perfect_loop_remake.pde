@@ -1,9 +1,7 @@
 float sunOffset= -750;
 float moonOffset= 750;
 color sky = color(55, 240, 238);
-float sunOffset1 = mouseX;
 color sun = color(248, 240, 240);
-float interpValue = map(sunOffset, -750, width, 0, 1);
 void setup() {
   size(1000, 1000);
 }
@@ -24,4 +22,5 @@ void draw() {
   resetMatrix();
   //earth
   rect(0, 600, 1000, 383, 1);
+   
 }
