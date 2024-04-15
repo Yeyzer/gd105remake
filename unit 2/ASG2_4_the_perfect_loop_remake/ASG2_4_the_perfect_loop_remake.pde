@@ -17,7 +17,10 @@ void draw() {
   circle(0, sunOffset, 333);
   fill(248, 240, 240);
   circle(0, moonOffset, 333);
+  fill(sky);
+  circle(50,moonOffset,300);
   fill(4, 89, 4);
+
 
   resetMatrix();
   //earth
