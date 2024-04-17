@@ -13,6 +13,6 @@ void draw() {
   circle( random(width), random(height), 2);
 
 
-  // draw something
-  // adjust where it will be drawn the next frame
+   save("output.png");
+
 }

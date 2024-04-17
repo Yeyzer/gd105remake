@@ -11,4 +11,5 @@ line(1000,979,0,980);
 line(0,999,0,0);
   // Draw a line from previous mouse location to current mouse location.
   line(pmouseX, pmouseY, mouseX, mouseY);
+  save("output.png");
 }
