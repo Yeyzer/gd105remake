@@ -3,6 +3,7 @@ float moonOffset= 750;
 color sky = color(55, 240, 238);
 color sun = color(248, 240, 240);
 void setup() {
+  
   size(1000, 1000);
 }
 
@@ -20,7 +21,7 @@ void draw() {
   fill(sky);
   circle(50,moonOffset,300);
   fill(4, 89, 4);
-
+  lerpColor(sky,sky,sky);
 
   resetMatrix();
   //earth
