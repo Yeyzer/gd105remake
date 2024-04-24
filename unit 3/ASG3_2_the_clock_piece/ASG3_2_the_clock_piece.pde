@@ -1,6 +1,6 @@
-int d = day();
-int m = month();
-int y = year();
+int s = second();
+int h = hour();
+int m = minute();
 
 void setup(){
 size(1000,1000);
@@ -22,4 +22,8 @@ background(255);
  //jupiter
  fill(245,232,90);
  circle(107,408,302);
+ //moon
+ rotate(frameCount*0.01);
+ fill(1,3,5);
+ circle(50,40,30);
 }
