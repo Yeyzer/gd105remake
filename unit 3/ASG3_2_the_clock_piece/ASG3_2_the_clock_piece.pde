@@ -1,9 +1,11 @@
 int s = second();
 int h = hour();
 int m = minute();
-
+int starsNum = 300;
+PVector [] stars = new PVector[300];
 void setup(){
 size(1000,1000);
+
 }
 void draw(){ 
 background(255);
@@ -23,7 +25,8 @@ background(255);
  fill(245,232,90);
  circle(107,408,302);
  //moon
+ translate(width*0.5,height*0.5);
  rotate(frameCount*0.01);
- fill(1,3,5);
- circle(50,40,30);
+ fill(252,254,255);
+ circle(50,334,79);
 }
