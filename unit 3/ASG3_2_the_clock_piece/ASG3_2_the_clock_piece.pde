@@ -84,6 +84,5 @@ void draw() {
   text("6",486,788);
   text("9",107,417);
 textAlign(CENTER,CENTER);
-
-
+  save("output.png");
 }
